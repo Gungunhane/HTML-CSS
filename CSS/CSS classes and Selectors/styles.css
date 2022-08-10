@@ -1,0 +1,44 @@
+/* a dot before a name refers to the class name
+p.error{
+    color: red;
+}
+p.sucess{
+    color: rgb(11, 212, 11);
+}
+p.sucess.feedback{
+    border: 1px dashed rgb(11, 212, 11);
+}
+ using id requires hashtags and ids are unique to each element
+#content{
+    background-color: lightblue;
+    padding: 20px;
+} */
+/* when theres no space between a html tag and its class name whe are selecting the html tag */
+/* div.error{
+    color: violet;
+}
+/* when theres space between a html tag and a class name whe are selecting the a class name inside the html tag  */
+/* div .error{
+    color:red;
+} */ 
+/* this selects all the ancor tags */
+/* a[href]{
+    background-color: burlywood;
+} */
+/* This selects an unique ancor tag with href */
+/* a[href="https://www.google.com"]{
+    background-color: red;
+    color: white;
+    font-weight: bolder;
+    text-transform: capitalize; */
+    /* This selects an unique ancor tag with href based in the asterix */
+ /* a[href*="sofascore"]{
+    background-color: red;
+    color: white;
+    font-weight: bolder;
+    text-transform: capitalize;  */
+
+
+/* ìnherit allows to inherit parents attributes */
+
+/* specificity and cascade */

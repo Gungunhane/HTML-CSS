@@ -1,0 +1,10 @@
+/* dislplay statement alows to change an inline type element to block and vice-versa */
+
+div{
+    display: inline;
+}
+span{
+    display: inline-block;
+
+    margin:30px;}
+
